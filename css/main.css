@@ -151,7 +151,7 @@ a {
 
 .choice-wrapper {
 	display: flex;
-	height: 944px;
+	height: 900px;
 	margin-top: 119px;
 }
 
@@ -180,6 +180,11 @@ a {
 	margin-left: -32px;
 }
 
+.mainFlavs {
+	background: #F5FDFA;
+	padding-top: 40px;
+}
+
 .titleFlavs {
 	margin-top: 83px;
 	margin-bottom: 10px;
@@ -187,6 +192,10 @@ a {
 
 .supFlav {
 	display: flex;
+	margin-top: 41px;
+	margin-left: 184px;
+	margin-right: 160px;
+	justify-content: space-between;
 }
 
 .flavs {
@@ -197,10 +206,15 @@ a {
 	text-transform: uppercase
 }
 
-.flav p {
-	color: black;
+.flav {
+	width: 191px;
+	height: 144px;
+	margin: auto;
+	text-align: center;
 }
 
-.flav {
-	
+.flav p {
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
